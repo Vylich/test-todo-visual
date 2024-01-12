@@ -1,0 +1,38 @@
+.card {
+	border-radius: 16px;
+	border: 1px solid #fff;
+	width: 275px;
+	max-height: auto;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	padding: 15px;
+	background-color: $color-default-white;
+	color: $color-black-pearl;
+}
+
+.card__title {
+	margin: 0;
+	text-transform: capitalize;
+}
+
+.card__descr {
+	margin: 0;
+	margin-top: 20px;
+	overflow: scroll;
+}
+.card__inputs {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+
+	input {
+		width: 40px;
+		height: 40px;
+		cursor: pointer;
+	}
+
+	button {
+		cursor: pointer;
+	}
+}
