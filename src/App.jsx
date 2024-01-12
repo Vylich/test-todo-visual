@@ -8,8 +8,7 @@ function App() {
 
 	useEffect(() => {
 		const storageTodos = JSON.parse(localStorage.getItem('todos'))
-		if (storageTodos.length) {
-			console.log(storageTodos)
+		if (storageTodos) {
 			setTodos(storageTodos)
 		}
 	}, [])
